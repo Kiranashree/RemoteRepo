@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35619" started-at="2018-04-01T01:10:52Z" finished-at="2018-04-01T01:11:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35619" started-at="2018-04-01T01:10:52Z" finished-at="2018-04-01T01:11:27Z">
+      <class name="com.actitime.testscripts.TestInvalidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.actitime.testscripts.TestInvalidLogin@b2c100]" name="openApplication" is-config="true" duration-ms="12313" started-at="2018-04-01T06:40:52Z" finished-at="2018-04-01T06:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:com.actitime.testscripts.TestInvalidLogin@b2c100]" name="testInvalidLogin" duration-ms="9120" started-at="2018-04-01T06:41:04Z" finished-at="2018-04-01T06:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.testscripts.TestInvalidLogin@b2c100]" name="closeApplication" is-config="true" duration-ms="202" started-at="2018-04-01T06:41:13Z" finished-at="2018-04-01T06:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.testscripts.TestInvalidLogin -->
+      <class name="com.actitime.testscripts.TestValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.actitime.testscripts.TestValidLogin@1b554cc]" name="openApplication" is-config="true" duration-ms="11508" started-at="2018-04-01T06:41:13Z" finished-at="2018-04-01T06:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:com.actitime.testscripts.TestValidLogin@1b554cc]" name="testValidLogin" duration-ms="2272" started-at="2018-04-01T06:41:25Z" finished-at="2018-04-01T06:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.testscripts.TestValidLogin@1b554cc]" name="closeApplication" is-config="true" duration-ms="175" started-at="2018-04-01T06:41:27Z" finished-at="2018-04-01T06:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.testscripts.TestValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
